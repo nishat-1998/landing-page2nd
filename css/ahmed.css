@@ -1,7 +1,16 @@
-.nav-pad img{
-    font-size: px;
+.nav-logo{
+    float: auto;
+    font-size: 30px
+    padding:0%;
+    display: inline;
 }
-
+.blue-high{
+    color:#03033a;
+    font-size: 60px;
+}
+.image-icon{
+    padding-right: 20px;
+}
 .img-fluid{
     font-size: 50%;
 }
@@ -14,4 +23,34 @@
 }
 .categories img{
     width: 100px;
+}
+.client-area{
+    background-image: url(images/na.png);
+     background-repeat: no-repeat;
+     background-position: left;
+     background-color: white;
+}
+.client-area h2{
+    color:#03033a;
+    padding-left: 300px;
+    font-size: 40px;
+}
+
+#client-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,orange, tomato);
+    border-image-slice: 1;
+    background-color: white;
+    padding-left: 20px;
+}
+
+#client-2{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    background-color: white;
+    padding-left: 20px;
+}
+.client-area p{
+    color:dimgray;
 }
